@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Цікаві природні явища та факти про природу.">
+  <title>Світ природи | Цікаві явища</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">✿</span><span>Світ природи</span></a>
+  <button class="menu-toggle" aria-label="Відкрити меню" aria-expanded="false">☰</button>
+  <nav class="main-nav" aria-label="Головна навігація">
+    <a href="index.html">Головна</a><a href="gallery.html">Галерея</a><a class="active" href="phenomena.html">Цікаві явища</a>
+  </nav>
+  <button class="theme-toggle" aria-label="Змінити тему" title="Змінити тему">☾</button>
+</header>
+<main>
+  <section class="page-hero phenomena-hero">
+    <p class="eyebrow">ДИВОВИЖНЕ ПОРУЧ</p>
+    <h1>Природа в русі<br><em>та перетворенні</em></h1>
+    <p>Деякі явища тривають секунди, інші — змінюють планету протягом тисячоліть.</p>
+  </section>
+
+  <section class="section-wrap phenomena-list">
+    <article class="phenomenon-card">
+      <div class="phenomenon-visual bloom-visual"><div class="sun-disc"></div><div class="flower-animation"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div><span class="visual-label">РОЗКВІТАННЯ</span></div>
+      <div class="phenomenon-copy"><p class="eyebrow">01 / РОСЛИННИЙ СВІТ</p><h2>Як розквітає <em>квітка</em></h2><p>Квіти розкривають пелюстки завдяки росту клітин і змінам тиску води в них. На цей процес можуть впливати світло, температура та біологічний годинник рослини.</p><span class="fact-tag">Квіти реагують на умови довкілля</span></div>
+    </article>
+    <article class="phenomenon-card reverse">
+      <div class="phenomenon-visual daynight-visual"><div class="sky-sun"></div><div class="sky-moon"></div><div class="horizon"></div><div class="mountain m1"></div><div class="mountain m2"></div><span class="visual-label">ДЕНЬ І НІЧ</span></div>
+      <div class="phenomenon-copy"><p class="eyebrow">02 / КОСМІЧНІ ЯВИЩА</p><h2>Зміна дня <em>і ночі</em></h2><p>День і ніч змінюються через обертання Землі навколо своєї осі. Один повний оберт триває приблизно 24 години. Поки одна частина планети освітлена Сонцем, інша перебуває в темряві.</p><span class="fact-tag">Земля обертається навколо своєї осі</span></div>
+    </article>
+    <article class="phenomenon-card">
+      <div class="phenomenon-visual aurora-visual"><div class="aurora aurora-one"></div><div class="aurora aurora-two"></div><div class="starfield">✦　·　✧　　✦　·　✧</div><span class="visual-label">ПОЛЯРНЕ СЯЙВО</span></div>
+      <div class="phenomenon-copy"><p class="eyebrow">03 / АТМОСФЕРА</p><h2>Магія полярного <em>сяйва</em></h2><p>Полярне сяйво виникає, коли заряджені частинки від Сонця взаємодіють із газами у верхніх шарах атмосфери Землі. Найчастіше його можна побачити поблизу полярних регіонів.</p><span class="fact-tag">Світіння створюють частинки та гази атмосфери</span></div>
+    </article>
+  </section>
+
+  <section class="quiz-section">
+    <div class="quiz-box">
+      <p class="eyebrow">ПЕРЕВІР СЕБЕ</p><h2>Маленька <em>вікторина</em></h2>
+      <p class="quiz-question">Чому на Землі змінюються день і ніч?</p>
+      <div class="quiz-options">
+        <button class="quiz-option" data-correct="false">Через рух Місяця навколо Землі</button>
+        <button class="quiz-option" data-correct="true">Через обертання Землі навколо своєї осі</button>
+        <button class="quiz-option" data-correct="false">Через зміну пір року</button>
+      </div>
+      <p class="quiz-feedback" aria-live="polite">Обери одну відповідь.</p>
+      <button class="button button-outline quiz-reset">Спробувати ще раз ↻</button>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">✿</span><span>Світ природи</span></a><p>Навчаймося бачити красу навколо нас.</p><span>© 2026 · Навчальний проєкт</span></footer>
+</body>
+</html>
